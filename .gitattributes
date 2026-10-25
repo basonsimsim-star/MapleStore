@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.xcconfig text eol=lf
+*.swift text eol=lf
+*.py text eol=lf

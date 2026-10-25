@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		507974632E784D4E0016F540 /* Digger in Frameworks */ = {isa = PBXBuildFile; productRef = 507974622E784D4E0016F540 /* Digger */; };
+		50ABFB122F48A6D60077DE1A /* ApplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 50ABFB112F48A6D60077DE1A /* ApplePackage */; };
+		50ABFE1F2F48AAE50077DE1A /* ButtonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 50ABFE1E2F48AAE50077DE1A /* ButtonKit */; };
+		50D0C8B82C40187800538F49 /* Vapor in Frameworks */ = {isa = PBXBuildFile; productRef = 50D0C8B72C40187800538F49 /* Vapor */; };
+		50D262942E77D63B00FF8813 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 50D262932E77D63B00FF8813 /* Logging */; };
+		50D44D192C3F92A100CF6A69 /* ApplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 50D44D182C3F92A100CF6A69 /* ApplePackage */; };
+		50D44D1C2C3F92BB00CF6A69 /* NIO in Frameworks */ = {isa = PBXBuildFile; productRef = 50D44D1B2C3F92BB00CF6A69 /* NIO */; };
+		50D44D1E2C3F92BB00CF6A69 /* NIOHTTP1 in Frameworks */ = {isa = PBXBuildFile; productRef = 50D44D1D2C3F92BB00CF6A69 /* NIOHTTP1 */; };
+		50D44D202C3F92BB00CF6A69 /* NIOTLS in Frameworks */ = {isa = PBXBuildFile; productRef = 50D44D1F2C3F92BB00CF6A69 /* NIOTLS */; };
+		50D44D232C3F92C500CF6A69 /* NIOSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 50D44D222C3F92C500CF6A69 /* NIOSSL */; };
+		50D44D3F2C3FA59500CF6A69 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 50D44D3E2C3FA59500CF6A69 /* Kingfisher */; };
+		50D44D512C3FC85F00CF6A69 /* AnyCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 50D44D502C3FC85F00CF6A69 /* AnyCodable */; };
+		50DCBD782F346E01007100D2 /* Certificates in Resources */ = {isa = PBXBuildFile; fileRef = 50DCBD772F346DFE007100D2 /* Certificates */; };
+		50E28B812C40BA52007891E0 /* ColorfulX in Frameworks */ = {isa = PBXBuildFile; productRef = 50E28B802C40BA52007891E0 /* ColorfulX */; };
+		80CD64ED2C42AA2C0073E206 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 80CD64EC2C42AA2C0073E206 /* KeychainAccess */; };
+		E20AB0982C78DD66AF202F7C /* LookInsideServer in Frameworks */ = {isa = PBXBuildFile; productRef = A57ACB25387C8C8F3E31EC36 /* LookInsideServer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50D44D022C3F91F700CF6A69 /* Asspp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asspp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DCBD772F346DFE007100D2 /* Certificates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Certificates; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		50DCBC2D2F346C6F007100D2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			platformFiltersByRelativePath = {
+				App/LaunchScreen.storyboard = (
+					ios,
+				);
+			};
+			target = 50D44D012C3F91F700CF6A69 /* Asspp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		50DCBBB42F346C57007100D2 /* Configuration */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Configuration; sourceTree = "<group>"; };
+		50DCBBF92F346C6F007100D2 /* Asspp */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (50DCBC2D2F346C6F007100D2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Asspp; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D44CFF2C3F91F700CF6A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D44D3F2C3FA59500CF6A69 /* Kingfisher in Frameworks */,
+				50E28B812C40BA52007891E0 /* ColorfulX in Frameworks */,
+				50D44D232C3F92C500CF6A69 /* NIOSSL in Frameworks */,
+				50D0C8B82C40187800538F49 /* Vapor in Frameworks */,
+				507974632E784D4E0016F540 /* Digger in Frameworks */,
+				50D44D1E2C3F92BB00CF6A69 /* NIOHTTP1 in Frameworks */,
+				50D262942E77D63B00FF8813 /* Logging in Frameworks */,
+				50ABFB122F48A6D60077DE1A /* ApplePackage in Frameworks */,
+				50ABFE1F2F48AAE50077DE1A /* ButtonKit in Frameworks */,
+				50D44D512C3FC85F00CF6A69 /* AnyCodable in Frameworks */,
+				50D44D192C3F92A100CF6A69 /* ApplePackage in Frameworks */,
+				80CD64ED2C42AA2C0073E206 /* KeychainAccess in Frameworks */,
+				50D44D1C2C3F92BB00CF6A69 /* NIO in Frameworks */,
+				50D44D202C3F92BB00CF6A69 /* NIOTLS in Frameworks */,
+				E20AB0982C78DD66AF202F7C /* LookInsideServer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D44CF92C3F91F700CF6A69 = {
+			isa = PBXGroup;
+			children = (
+				50DCBBF92F346C6F007100D2 /* Asspp */,
+				50DCBD772F346DFE007100D2 /* Certificates */,
+				50DCBBB42F346C57007100D2 /* Configuration */,
+				50D44D032C3F91F700CF6A69 /* Products */,
+				50D44D172C3F92A100CF6A69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50D44D032C3F91F700CF6A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D44D022C3F91F700CF6A69 /* Asspp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D44D172C3F92A100CF6A69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D44D012C3F91F700CF6A69 /* Asspp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D44D102C3F91F800CF6A69 /* Build configuration list for PBXNativeTarget "Asspp" */;
+			buildPhases = (
+				C0NF1G001000000000000006 /* Check Developer.xcconfig */,
+				50D44CFE2C3F91F700CF6A69 /* Sources */,
+				50D44CFF2C3F91F700CF6A69 /* Frameworks */,
+				50D44D002C3F91F700CF6A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				50DCBBF92F346C6F007100D2 /* Asspp */,
+			);
+			name = Asspp;
+			packageProductDependencies = (
+				50D44D182C3F92A100CF6A69 /* ApplePackage */,
+				50D44D1B2C3F92BB00CF6A69 /* NIO */,
+				50D44D1D2C3F92BB00CF6A69 /* NIOHTTP1 */,
+				50D44D1F2C3F92BB00CF6A69 /* NIOTLS */,
+				50D44D222C3F92C500CF6A69 /* NIOSSL */,
+				50D44D3E2C3FA59500CF6A69 /* Kingfisher */,
+				50D44D502C3FC85F00CF6A69 /* AnyCodable */,
+				50D0C8B72C40187800538F49 /* Vapor */,
+				50E28B802C40BA52007891E0 /* ColorfulX */,
+				80CD64EC2C42AA2C0073E206 /* KeychainAccess */,
+				50D262932E77D63B00FF8813 /* Logging */,
+				507974622E784D4E0016F540 /* Digger */,
+				50ABFB112F48A6D60077DE1A /* ApplePackage */,
+				50ABFE1E2F48AAE50077DE1A /* ButtonKit */,
+				A57ACB25387C8C8F3E31EC36 /* LookInsideServer */,
+			);
+			productName = Asspp;
+			productReference = 50D44D022C3F91F700CF6A69 /* Asspp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D44CFA2C3F91F700CF6A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					50D44D012C3F91F700CF6A69 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 50D44CFD2C3F91F700CF6A69 /* Build configuration list for PBXProject "Asspp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = 50D44CF92C3F91F700CF6A69;
+			packageReferences = (
+				50D44D1A2C3F92BB00CF6A69 /* XCRemoteSwiftPackageReference "swift-nio" */,
+				50D44D212C3F92C500CF6A69 /* XCRemoteSwiftPackageReference "swift-nio-ssl" */,
+				50D44D3D2C3FA59500CF6A69 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				50D44D4F2C3FC85F00CF6A69 /* XCRemoteSwiftPackageReference "AnyCodable" */,
+				50D0C8B62C40187800538F49 /* XCRemoteSwiftPackageReference "vapor" */,
+				50E28B7F2C40BA52007891E0 /* XCRemoteSwiftPackageReference "ColorfulX" */,
+				80CD64EB2C42AA2C0073E206 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				50D262922E77D63B00FF8813 /* XCRemoteSwiftPackageReference "swift-log" */,
+				507974612E784D4E0016F540 /* XCRemoteSwiftPackageReference "Digger" */,
+				50ABFB102F48A6D60077DE1A /* XCRemoteSwiftPackageReference "ApplePackage" */,
+				50ABFE1D2F48AAE50077DE1A /* XCRemoteSwiftPackageReference "ButtonKit" */,
+				82E7AE7277E13A750B401DE9 /* XCRemoteSwiftPackageReference "LookInside-Release" */,
+			);
+			productRefGroup = 50D44D032C3F91F700CF6A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D44D012C3F91F700CF6A69 /* Asspp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D44D002C3F91F700CF6A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DCBD782F346E01007100D2 /* Certificates in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0NF1G001000000000000006 /* Check Developer.xcconfig */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Check Developer.xcconfig";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DEVELOPER_CONFIG=\"${SRCROOT}/Configuration/Developer.xcconfig\"\nTEMPLATE_CONFIG=\"${SRCROOT}/Configuration/Developer.xcconfig.template\"\n\nif [ ! -f \"$DEVELOPER_CONFIG\" ]; then\n    echo \"error: Developer.xcconfig not found!\"\n    echo \"error: Please copy Developer.xcconfig.template to Developer.xcconfig and configure your signing settings.\"\n    echo \"error: Run: cp \\\"$TEMPLATE_CONFIG\\\" \\\"$DEVELOPER_CONFIG\\\"\"\n    exit 1\nfi\n\necho \"Developer.xcconfig found.\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D44CFE2C3F91F700CF6A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50D44D0E2C3F91F800CF6A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 50DCBBB42F346C57007100D2 /* Configuration */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Debug;
+		};
+		50D44D0F2C3F91F800CF6A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 50DCBBB42F346C57007100D2 /* Configuration */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Release;
+		};
+		50D44D112C3F91F800CF6A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 50DCBBB42F346C57007100D2 /* Configuration */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
+			buildSettings = {
+				INFOPLIST_KEY_CFBundleDisplayName = MapleStore;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "MapleStore requires this permission to communicate with install service on your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+			};
+			name = Debug;
+		};
+		50D44D122C3F91F800CF6A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 50DCBBB42F346C57007100D2 /* Configuration */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
+			buildSettings = {
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"$(inherited)",
+					"LookInsideServer*",
+				);
+				INFOPLIST_KEY_CFBundleDisplayName = MapleStore;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "MapleStore requires this permission to communicate with install service on your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D44CFD2C3F91F700CF6A69 /* Build configuration list for PBXProject "Asspp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D44D0E2C3F91F800CF6A69 /* Debug */,
+				50D44D0F2C3F91F800CF6A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D44D102C3F91F800CF6A69 /* Build configuration list for PBXNativeTarget "Asspp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D44D112C3F91F800CF6A69 /* Debug */,
+				50D44D122C3F91F800CF6A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		507974612E784D4E0016F540 /* XCRemoteSwiftPackageReference "Digger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lakr233/Digger";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.5;
+			};
+		};
+		50ABFB102F48A6D60077DE1A /* XCRemoteSwiftPackageReference "ApplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lakr233/ApplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+		50ABFE1D2F48AAE50077DE1A /* XCRemoteSwiftPackageReference "ButtonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Dean151/ButtonKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.1;
+			};
+		};
+		50D0C8B62C40187800538F49 /* XCRemoteSwiftPackageReference "vapor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/vapor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.102.1;
+			};
+		};
+		50D262922E77D63B00FF8813 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.4;
+			};
+		};
+		50D44D1A2C3F92BB00CF6A69 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.68.0;
+			};
+		};
+		50D44D212C3F92C500CF6A69 /* XCRemoteSwiftPackageReference "swift-nio-ssl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio-ssl.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.27.0;
+			};
+		};
+		50D44D3D2C3FA59500CF6A69 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+		50D44D4F2C3FC85F00CF6A69 /* XCRemoteSwiftPackageReference "AnyCodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flight-School/AnyCodable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
+		50E28B7F2C40BA52007891E0 /* XCRemoteSwiftPackageReference "ColorfulX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lakr233/ColorfulX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.2;
+			};
+		};
+		80CD64EB2C42AA2C0073E206 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+		82E7AE7277E13A750B401DE9 /* XCRemoteSwiftPackageReference "LookInside-Release" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LookInsideApp/LookInside-Release.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		507974622E784D4E0016F540 /* Digger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 507974612E784D4E0016F540 /* XCRemoteSwiftPackageReference "Digger" */;
+			productName = Digger;
+		};
+		50ABFB112F48A6D60077DE1A /* ApplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50ABFB102F48A6D60077DE1A /* XCRemoteSwiftPackageReference "ApplePackage" */;
+			productName = ApplePackage;
+		};
+		50ABFE1E2F48AAE50077DE1A /* ButtonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50ABFE1D2F48AAE50077DE1A /* XCRemoteSwiftPackageReference "ButtonKit" */;
+			productName = ButtonKit;
+		};
+		50D0C8B72C40187800538F49 /* Vapor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50D0C8B62C40187800538F49 /* XCRemoteSwiftPackageReference "vapor" */;
+			productName = Vapor;
+		};
+		50D262932E77D63B00FF8813 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50D262922E77D63B00FF8813 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+		50D44D182C3F92A100CF6A69 /* ApplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ApplePackage;
+		};
+		50D44D1B2C3F92BB00CF6A69 /* NIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50D44D1A2C3F92BB00CF6A69 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIO;
+		};
+		50D44D1D2C3F92BB00CF6A69 /* NIOHTTP1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50D44D1A2C3F92BB00CF6A69 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOHTTP1;
+		};
+		50D44D1F2C3F92BB00CF6A69 /* NIOTLS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50D44D1A2C3F92BB00CF6A69 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOTLS;
+		};
+		50D44D222C3F92C500CF6A69 /* NIOSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50D44D212C3F92C500CF6A69 /* XCRemoteSwiftPackageReference "swift-nio-ssl" */;
+			productName = NIOSSL;
+		};
+		50D44D3E2C3FA59500CF6A69 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50D44D3D2C3FA59500CF6A69 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		50D44D502C3FC85F00CF6A69 /* AnyCodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50D44D4F2C3FC85F00CF6A69 /* XCRemoteSwiftPackageReference "AnyCodable" */;
+			productName = AnyCodable;
+		};
+		50E28B802C40BA52007891E0 /* ColorfulX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50E28B7F2C40BA52007891E0 /* XCRemoteSwiftPackageReference "ColorfulX" */;
+			productName = ColorfulX;
+		};
+		80CD64EC2C42AA2C0073E206 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80CD64EB2C42AA2C0073E206 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		A57ACB25387C8C8F3E31EC36 /* LookInsideServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82E7AE7277E13A750B401DE9 /* XCRemoteSwiftPackageReference "LookInside-Release" */;
+			productName = LookInsideServer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 50D44CFA2C3F91F700CF6A69 /* Project object */;
+}

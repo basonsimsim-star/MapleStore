@@ -1,0 +1,21 @@
+// Release.xcconfig
+// Release-specific build settings
+
+#include "Base.xcconfig"
+#include "Developer.xcconfig"
+
+// MARK: - Release Compilation
+
+SWIFT_COMPILATION_MODE = wholemodule
+VALIDATE_PRODUCT = YES
+ENABLE_NS_ASSERTIONS = NO
+
+// MARK: - Debug Info
+
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+MTL_ENABLE_DEBUG_INFO = NO
+COPY_PHASE_STRIP = NO
+
+// MARK: - Script Sandboxing
+
+ENABLE_USER_SCRIPT_SANDBOXING = YES

@@ -1,0 +1,79 @@
+// Base.xcconfig
+// Common build settings shared across all configurations
+
+#include "Version.xcconfig"
+
+// MARK: - App Identity
+
+PRODUCT_BUNDLE_IDENTIFIER = app.maplestore.client
+PRODUCT_NAME = $(TARGET_NAME)
+
+// MARK: - Deployment Targets
+
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+MACOSX_DEPLOYMENT_TARGET = 15.0
+
+// MARK: - Swift
+
+SWIFT_VERSION = 5.0
+
+// MARK: - Supported Platforms
+
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator macosx
+SUPPORTS_MACCATALYST = NO
+SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO
+SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO
+TARGETED_DEVICE_FAMILY = 1,2
+
+// MARK: - Code Signing (Empty - Must be provided by Developer.xcconfig)
+
+CODE_SIGN_STYLE =
+CODE_SIGN_IDENTITY =
+CODE_SIGN_IDENTITY[sdk=macosx*] =
+DEVELOPMENT_TEAM =
+
+// MARK: - Assets
+
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor
+
+// MARK: - Info.plist
+
+GENERATE_INFOPLIST_FILE = YES
+INFOPLIST_FILE = Asspp/Info.plist
+INFOPLIST_KEY_CFBundleDisplayName = MapleStore
+INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.developer-tools
+INFOPLIST_KEY_NSLocalNetworkUsageDescription = MapleStore requires this permission to communicate with install service on your device.
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES
+INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES
+INFOPLIST_KEY_UILaunchScreen_Generation = YES
+INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown
+
+// MARK: - Entitlements & Sandbox
+
+CODE_SIGN_ENTITLEMENTS = Asspp/Asspp.entitlements
+ENABLE_APP_SANDBOX = YES
+ENABLE_HARDENED_RUNTIME = YES
+ENABLE_INCOMING_NETWORK_CONNECTIONS = YES
+ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES
+ENABLE_USER_SELECTED_FILES = readwrite
+REGISTER_APP_GROUPS = YES
+
+// MARK: - Resource Access
+
+ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO
+ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO
+ENABLE_RESOURCE_ACCESS_CALENDARS = NO
+ENABLE_RESOURCE_ACCESS_CAMERA = NO
+ENABLE_RESOURCE_ACCESS_CONTACTS = NO
+ENABLE_RESOURCE_ACCESS_LOCATION = NO
+ENABLE_RESOURCE_ACCESS_PRINTING = NO
+ENABLE_RESOURCE_ACCESS_USB = NO
+
+// MARK: - Other
+
+ENABLE_PREVIEWS = YES
+SWIFT_EMIT_LOC_STRINGS = YES
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
+LD_RUNPATH_SEARCH_PATHS[sdk=macosx*] = $(inherited) @executable_path/../Frameworks

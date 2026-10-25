@@ -1,0 +1,26 @@
+// Developer.xcconfig
+// Local developer overrides - this file is required but gitignored
+// Copy this template to Developer.xcconfig and fill in your values
+//
+// IMPORTANT: This file MUST exist for the project to build.
+// Copy Developer.xcconfig.template to Developer.xcconfig before building.
+
+// MARK: - Code Signing
+// Fill in your personal development team ID and signing identity
+
+// Your Apple Developer Team ID (found in developer.apple.com)
+DEVELOPMENT_TEAM =
+
+// Code signing style: Automatic or Manual
+CODE_SIGN_STYLE = Automatic
+
+// Code signing identity (leave empty for Automatic signing)
+// Examples: "Apple Development", "Apple Distribution", "-"
+CODE_SIGN_IDENTITY = Apple Development
+CODE_SIGN_IDENTITY[sdk=macosx*] = Apple Development
+
+// MARK: - Optional Overrides
+// Uncomment and modify as needed
+
+// Override bundle identifier for personal builds
+// PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Asspp

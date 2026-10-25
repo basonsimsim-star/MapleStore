@@ -1,0 +1,24 @@
+// Debug.xcconfig
+// Debug-specific build settings
+
+#include "Base.xcconfig"
+#include "Developer.xcconfig"
+
+// MARK: - Debug Compilation
+
+GCC_OPTIMIZATION_LEVEL = 0
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG $(inherited)
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited)
+
+// MARK: - Debug Info
+
+DEBUG_INFORMATION_FORMAT = dwarf
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE
+ENABLE_TESTABILITY = YES
+ONLY_ACTIVE_ARCH = YES
+COPY_PHASE_STRIP = NO
+
+// MARK: - Script Sandboxing
+
+ENABLE_USER_SCRIPT_SANDBOXING = NO
