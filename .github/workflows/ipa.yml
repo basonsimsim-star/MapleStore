@@ -19,36 +19,8 @@ jobs:
   build:
     runs-on: macos-26
     timeout-minutes: 60
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v7.0.1
-      - name: Import uploaded source into the repository
-        if: hashFiles('MapleStore-source.zip') != '' && hashFiles('Asspp.xcworkspace/contents.xcworkspacedata') == ''
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path, PurePosixPath
-          import zipfile
-          with zipfile.ZipFile('MapleStore-source.zip') as archive:
-              for member in archive.infolist():
-                  path = PurePosixPath(member.filename)
-                  if path.is_absolute() or '..' in path.parts:
-                      raise ValueError('Unsafe source path')
-                  relative = path.relative_to('MapleStore')
-                  if not relative.parts or relative.parts[:2] == ('.github', 'workflows'):
-                      continue
-                  target = Path(*relative.parts)
-                  if member.is_dir():
-                      target.mkdir(parents=True, exist_ok=True)
-                  else:
-                      target.parent.mkdir(parents=True, exist_ok=True)
-                      target.write_bytes(archive.read(member))
-          PY
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add --all -- . ':!.github/workflows'
-          git commit -m 'Import MapleStore application source and retained MIT attribution'
-          git push origin HEAD:main
       - name: Select latest stable Xcode available on the runner
         uses: maxim-lobanov/setup-xcode@v1.7.0
         with:
